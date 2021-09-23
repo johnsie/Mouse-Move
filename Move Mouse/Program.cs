@@ -14,7 +14,7 @@ namespace Ellanet
         private static void Main(string[] args)
         {
             if (!Debugger.IsAttached)
-            {
+            { 
                 AppDomain.CurrentDomain.UnhandledException += CurrentDomain_UnhandledException;
                 Application.ThreadException += Application_ThreadException;
             }
